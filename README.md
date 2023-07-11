@@ -25,7 +25,7 @@ The Semion Research Center of Sciences of Communication released a dataset based
 
 This data can be used to predict which type of defect based on the 27 features. With expanded understanding of the features, a model like this could be used to recommend process actions to prevent these defects in the future. In this project, I scaled the data before applying PCA to identify relationships between the features. After that, I used Pycaret with PCA enabled to compare and tune models. 
 
-Since the major focus of this project is to demonstrate putting models in production, the model testing notebook was to create a working viable model which would be needed to demonstrate productionalization. I've broken it down into three sections: experiment tracking, model registry, and model deployment inside of Databricks using mlflow.
+Since the major focus of this project is to demonstrate putting models in production, the model testing notebook was to create a working viable model which would be needed to demonstrate productionalization. I've broken model productionalization down into four sections: experiment tracking, establishing context, model registry, and model deployment inside of Databricks using mlflow.
 
 ## Skills Reviewed: 
 ### Experiment Tracking
