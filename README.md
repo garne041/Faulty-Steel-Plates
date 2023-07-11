@@ -29,22 +29,20 @@ Since the major focus of this project is to demonstrate putting models in produc
 
 ## Skills Reviewed: 
 ### Experiment Tracking
-Incorporating the preprocessing steps of data cleaning and scaling into the mlflow model
-Saving PCA variance plots and PCA components csv as artifacts for future reference
-Converting the PCA transform into an mlflow predict method
+- Incorporating the preprocessing steps of data cleaning and scaling into the mlflow model
+- Saving PCA variance plots and PCA components csv as artifacts for future reference
+- Converting the PCA transform into an mlflow predict method
 
 ### Establishing Context
-Generating signatures
-- Defining input and output schemas for the model to validate model data before and after training. Consistency. 
-Generating Conda environment
-- Making sure the same versions of relevant packages are used every time this model is trained or served. 
+- Generating signatures to define input and output schemas for the model to validate model data consistency before and after training.
+- Generating Conda environment to make sure the same versions of relevant packages are used every time this model is trained or served. 
 
 ### Model Registry 
-Establishing a centralized model store across the entire model lifecycle stage
-Registering the preprocessing/PCA model as well as the machine learning model
-Capturing model lineage and metadata
-Tracking model hyperparameters, performance metrics, source code, and artifacts. 
+- Establishing a centralized model store across the entire model lifecycle stage
+- Registering the preprocessing/PCA model as well as the machine learning model
+- Capturing model lineage and metadata
+- Tracking model hyperparameters, performance metrics, source code, and artifacts. 
 
 ### Model Deployment for Online Serving
-Updating most recent version and upgrading from Staging to Production 
-Predicting with current model in production
+- Updating most recent version and upgrading from Staging to Production 
+- Predicting with current model in production
