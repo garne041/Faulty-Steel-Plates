@@ -15,6 +15,7 @@ Objectives:
 ├── Data Load - Faulty Steel Plates.ipynb                               : Loading data onto Databricks into a table
 ├── Model Testing, Fit, and Feature Importance.ipynb                    : EDA, feature engineering, model training, feature importance
 ├── Experiment Tracking, Model Registry, and Model Deployment.ipynb     : Model productionalization
-├── LICENSE                                     : License
-└── README.md                                   : Project Report 
+├── LICENSE                                                             : License
+└── README.md                                                           : Project Report 
 ```
+
