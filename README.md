@@ -9,7 +9,7 @@ Objectives:
 - Utilize explainability packages on the model to identify possible actions an operator could take to reduce defects moving forward
 - Put this model into production on Databricks by using experiment tracking, model registry, and model deployment 
 
-
+```
 .
 ├── images/                                                             : Contains all images
 ├── Data Load - Faulty Steel Plates.ipynb                               : Loading data onto Databricks into a table
@@ -17,3 +17,4 @@ Objectives:
 ├── Experiment Tracking, Model Registry, and Model Deployment.ipynb     : Model productionalization
 ├── LICENSE                                     : License
 └── README.md                                   : Project Report 
+```
